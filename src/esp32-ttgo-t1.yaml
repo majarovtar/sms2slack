@@ -18,14 +18,6 @@ esphome:
 
 esp32:
   board: ttgo-t1
-  framework:
-    type: arduino
-    version: "2.0.3"
-    platform_version: "4.3.0"
-
-external_components:
-  - source: github://teamniteo/sms2slack-components
-    components: [ sim800l, http_request]
 
 wifi:
   ssid: !secret wifi
